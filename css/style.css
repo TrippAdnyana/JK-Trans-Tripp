@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.judul{
+    background: #413c69;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.judul h1,h2,h3{
+    height: 15px;
+}
+
+.judul-teks {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+a{
+/*color: #fff;*/
+    padding: 5px;
+    text-decoration: none; 
+}
+
+.table{
+    border-collapse: collapse;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.table th th , table.table tr td
+{
+    padding: 10px 80px ;
+}
+
+.forms {
+    max-width: 300px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    border: 1px solid #413c69;
+}
+
+a.edit {
+    background-color: #fff;
+    color: #413c69;
+    border: 1px solid #413c69;
+    border-radius: 10px;
+    padding: 5px 30px;
+}
+
+a.hapus {
+    background-color: #413c69;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 25px;
+}
